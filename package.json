@@ -14,15 +14,14 @@
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
-  
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "helmet": "^7.0.0",
     "dotenv": "^16.3.1",
-    "userop": "^0.4.0",
     "ethers": "^6.7.1",
-    "socket.io": "^4.7.2"
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "socket.io": "^4.7.2",
+    "userop": "github:nerochain/aa-userop-sdk"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
