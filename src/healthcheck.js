@@ -17,7 +17,7 @@ const request = http.request(options, (res) => {
 });
 
 request.on('error', (err) => {
-  console.log('Health check failed:', err.message);
+  console.log('Health check failed:', err.message); // Log the error message
   process.exit(1);
 });
 
